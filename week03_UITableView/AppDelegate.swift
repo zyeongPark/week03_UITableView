@@ -5,11 +5,11 @@
 //  Created by 박지영 on 2021/09/18.
 //
 
-import UIKit
+import UIKitv
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
- //환경일기장 만들기!! -> 제대로 완성 예상중
+ //환경일기장 만들기!! -> 피그마 에셋들 가져오기 
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
