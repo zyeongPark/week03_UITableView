@@ -22,7 +22,7 @@ class ViewController: UIViewController,UITableViewDataSource, UITableViewDelegat
 //    }
     
     func getNews(){
-        let task = URLSession.shared.dataTask(with: URL(string: "https://newsapi.org/v2/top-headlines?country=kr&apiKey=b874a5e6a525452db6495dd93c9eb1ed")!) { (data,response,error) in
+        //let task = URLSession.shared.dataTask(with: URL(string: "https://newsapi.org/v2/top-headlines?country=kr&apiKey=b874a5e6a525452db6495dd93c9eb1ed")!) { (data,response,error) in
             
             do {
                 let jsonObject = try JSONSerialization.jsonObject(with: data)
